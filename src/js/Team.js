@@ -1,5 +1,6 @@
 import { Character } from './Character';
 
+// eslint-disable-next-line import/prefer-default-export
 export class Team {
   constructor() {
     this.members = new Set();
